@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Script&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* index.css or global.css */
+:root {
+  /* Brand Colors */
+    --background-color: #1f1f1f;
+    --default-color: #ffffff;
+    --heading-color: #ffffff;
+    --accent-color: #9b805a;
+    --surface-color: #232323;
+    --contrast-color: #ffffff;
+
+  /* Gradients / Extras */
+  /* --gradient: linear-gradient(135deg, #0d6efd, #6610f2); */
+
+
+    --nav-hover-color: #9b805a;
+    --nav-color: #ffffff;
+    --nav-mobile-background-color: #393939;
+    --nav-dropdown-background-color: #393939;
+    --nav-dropdown-color: #ffffff;
+    --nav-dropdown-hover-color: #9b805a;
+    --nav-border-color: #787878;
+}
+/* index.css */
+html {
+  scroll-behavior: smooth;
+}

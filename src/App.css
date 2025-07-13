@@ -1,0 +1,28 @@
+/* App.css */
+
+*{
+  background-color: var(--background-color);
+}
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.app-container {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content {
+  width: 100%;
+  margin-left: 0; /* default for small screens */
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    margin-left: 240px; /* only on desktop */
+  }
+}
