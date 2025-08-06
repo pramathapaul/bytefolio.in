@@ -76,6 +76,9 @@ const Contact = () => {
           <a href="tel:+917003823938">+91 70038 23938</a>
         </p>
       </div>
+      <div className="contact-image">
+        <img src="/white-Photoroom.png" alt="Let's Connect" />
+      </div>
     </section>
   );
 };

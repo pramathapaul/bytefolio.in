@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import './Sidebar.css';
 
-const sectionIds = ['home', 'about', 'projects', 'skills', 'contact'];
+const sectionIds = ['home', 'about', 'projects', 'skills', 'achievement', 'contact'];
 
 const Sidebar = () => {
   const [open, setOpen] = useState(false);
@@ -41,7 +41,6 @@ const Sidebar = () => {
       {/* Sidebar */}
       <div className={`sidebar text-white ${open ? 'open' : ''}`}>
         <div className="sidebar-header d-flex justify-content-between align-items-center p-3">
-          <h5 className="m-0"></h5>
           <button className="btn text-white d-md-none" onClick={() => setOpen(false)}>✖</button>
         </div>
 

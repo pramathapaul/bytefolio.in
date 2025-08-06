@@ -6,6 +6,7 @@ import Project from "./components/Project";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Loader from "./components/Loader"; 
+import Achievement from "./components/Achievement";
 import './App.css';
 
 function App() {
@@ -35,6 +36,9 @@ function App() {
         </section>
         <section id="skills" className="section">
           <Skills />
+        </section>
+        <section id="achievement" className="section">
+          <Achievement />
         </section>
         <section id="contact" className="section">
           <Contact />

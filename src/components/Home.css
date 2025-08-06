@@ -1,4 +1,6 @@
 /* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
 .home-section {
   background-color: var(--background-color);
   color: var(--default-color);
@@ -108,11 +110,12 @@
 }
 
 .signature-text {
-  font-family: "League Script", cursive;
+  font-family: "Meow Script", cursive;
+  font-style: normal;
   font-size: 2.5rem;
   color: var(--accent-color);
   margin-bottom: 3px;
-  opacity: 0.9;
+  opacity: 1.5;
   text-align: center;
 }
 
